@@ -29,7 +29,8 @@ Remotes: welch-lab/liger,
     mojaveazure/seurat-disk,
     powellgenomicslab/Nebulosa,
     atakanekiz/CIPR-Package,
-    prabhakarlab/Banksy
+    prabhakarlab/Banksy,
+    williamsyy/pacmap-for-R/pacmapr
 Depends:
     R (>= 3.5.0)
 biocViews:
@@ -46,7 +47,8 @@ Imports:
     Seurat (>= 5.0.0),
     stats,
     utils,
-    rlang
+    rlang,
+    pacmapr
 Collate:
     'internal.R'
     'alevin.R'
@@ -88,4 +90,6 @@ Suggests:
     Nebulosa,
     presto,
     flexmix,
-    tricycle
+    tricycle,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
