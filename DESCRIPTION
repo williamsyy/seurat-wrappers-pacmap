@@ -30,7 +30,7 @@ Remotes: welch-lab/liger,
     powellgenomicslab/Nebulosa,
     atakanekiz/CIPR-Package,
     prabhakarlab/Banksy,
-    williamsyy/pacmap-for-R/pacmapr
+    williamsyy/pacmap-for-R
 Depends:
     R (>= 3.5.0)
 biocViews:
